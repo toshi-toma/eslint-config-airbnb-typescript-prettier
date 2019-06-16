@@ -1,0 +1,8 @@
+# dependencies
+node_modules
+
+# logs
+*.log
+
+# mac
+.DS_STORE

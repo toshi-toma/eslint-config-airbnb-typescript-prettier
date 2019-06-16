@@ -1,0 +1,28 @@
+{
+  "name": "eslint-config-airbnb-typescript-prettier",
+  "version": "1.0.0",
+  "description": "Airbnb's ESLint config with TypeScript and Prettier support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/toshi-toma/eslint-config-airbnb-typescript-prettier.git"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "keywords": [
+    "eslint",
+    "airbnb",
+    "typescript",
+    "prettier"
+  ],
+  "author": "toshi-toma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/issues"
+  },
+  "homepage": "https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier#readme"
+}

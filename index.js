@@ -37,16 +37,16 @@ module.exports = {
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/explicit-function-return-type": "off",
     // React
-    "react/jsx-filename-extension": ["error", { extensions: [".jsx", ".tsx"] }],
+    "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
+    "react/prop-types": ["off", {}],
+
   },
   settings: {
-    // Append 'ts' extensions to Airbnb 'import/resolver' setting
     "import/resolver": {
       node: {
-        extensions: [".mjs", ".js", ".ts", ".json"],
+        extensions: [".js", ".ts", ".jsx", ".tsx", ".json"],
       },
     },
-    // Append 'ts' extensions to Airbnb 'import/extensions' setting
     "import/extensions": [".js", ".ts", ".mjs", ".jsx", ".tsx"],
   },
 };

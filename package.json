@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "eslint --ext .tsx,ts test/",
-    "release": "standard-version",
+    "release": "npm test && standard-version",
     "release:dryrun": "standard-version --dry-run"
   },
   "repository": {

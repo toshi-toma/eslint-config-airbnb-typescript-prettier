@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airbnb-typescript-prettier",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Airbnb's ESLint config with TypeScript and Prettier support",
   "main": "index.js",
   "scripts": {

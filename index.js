@@ -32,7 +32,19 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     // React
     "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
-    "react/prop-types": ["off", {}]
+    "react/prop-types": ["off", {}],
+    // import
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        mjs: "never",
+        jsx: "never",
+        ts: "never",
+        tsx: "never"
+      }
+    ]
   },
   settings: {
     "import/resolver": {

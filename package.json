@@ -45,7 +45,7 @@
     "typescript": ">=3.2.1 <3.7.4"
   },
   "devDependencies": {
-    "@types/react": "16.9.16",
+    "@types/react": "16.9.25",
     "eslint": "6.6.0",
     "react": "16.13.1",
     "standard-version": "7.1.0",

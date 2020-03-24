@@ -13,7 +13,21 @@ const ComponentWithProps: FC<Props> = ({ name, age }) => (
   </p>
 );
 
+const ComponentWithHooks = () => {
+  const [count, setCount] = React.useState(0);
+  React.useEffect(() => {
+    const n = count + 1;
+    setCount(n);
+  }, [count]);
+  return (
+    <button type="button" onClick={() => setCount(count + 1)}>
+      {count}
+    </button>
+  );
+};
+
 export default {
   Component,
-  ComponentWithProps
+  ComponentWithProps,
+  ComponentWithHooks
 };

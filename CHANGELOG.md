@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/compare/v2.1.0...v2.1.1) (2020-03-27)
+
+
+### Bug Fixes
+
+* move Prettier from deps to devDeps ([#38](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/issues/38)) ([680dfbd](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/commit/680dfbd8a35ad5659dfb5c5223bd5be4801aac73))
+* **deps:** update dependency eslint-plugin-react-hooks to v3 ([#36](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/issues/36)) ([0499e56](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/commit/0499e561cd99897e67b5c40592dce8f65c86b2c4))
+
 ## [2.1.0](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/compare/v2.0.0...v2.1.0) (2020-03-24)
 
 

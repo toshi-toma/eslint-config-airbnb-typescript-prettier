@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/compare/v2.1.1...v2.2.0) (2020-06-21)
+
+
+### Features
+
+* Support Prettier v2 ([#32](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/issues/32)) ([64e5fbe](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/commit/64e5fbe1a7d7d9327b06c2a8c5016aa3d52aaaa4))
+
 ### [2.1.1](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/compare/v2.1.0...v2.1.1) (2020-03-27)
 
 

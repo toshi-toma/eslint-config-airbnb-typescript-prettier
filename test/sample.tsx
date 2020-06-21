@@ -29,5 +29,5 @@ const ComponentWithHooks = () => {
 export default {
   Component,
   ComponentWithProps,
-  ComponentWithHooks
+  ComponentWithHooks,
 };

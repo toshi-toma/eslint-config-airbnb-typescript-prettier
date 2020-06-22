@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 const Foo = () => <p>Foo</p>;
-const Component = () => <Foo />;
+const Component: FC = () => <Foo />;
 
 interface Props {
   name: string;
@@ -13,7 +13,7 @@ const ComponentWithProps: FC<Props> = ({ name, age }) => (
   </p>
 );
 
-const ComponentWithHooks = () => {
+const ComponentWithHooks: FC = () => {
   const [count, setCount] = React.useState(0);
   React.useEffect(() => {
     const n = count + 1;

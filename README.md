@@ -10,7 +10,7 @@ Airbnb's ESLint config with TypeScript and Prettier support.
 Install `typescript`, `eslint` and `prettier`, `eslint-config-airbnb-typescript-prettier` and put it into your `.eslintrc.js`.
 
 ```bash
-$ npm install typescript eslint@^6.8.0 prettier eslint-config-airbnb-typescript-prettier --save-dev
+$ npm install typescript eslint prettier eslint-config-airbnb-typescript-prettier --save-dev
 ```
 
 `.eslintrc.js`

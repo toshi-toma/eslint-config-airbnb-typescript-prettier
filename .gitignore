@@ -6,3 +6,6 @@ node_modules
 
 # mac
 .DS_STORE
+
+# idea
+.idea

@@ -1,4 +1,4 @@
-import { Person, SampleData } from "./samleTypes";
+import { Person, SampleData } from "./sampleTypes";
 
 function sum(a: number, b: number) {
   return a + b;

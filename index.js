@@ -28,8 +28,11 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/explicit-member-accessibility": "off",
     "@typescript-eslint/no-object-literal-type-assertion": "off",
+    // v4 changes
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": ["error"],
     // React
     "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
     "react/prop-types": ["off", {}],

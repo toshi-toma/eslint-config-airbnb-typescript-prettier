@@ -1,4 +1,4 @@
-import { Person } from "./samleTypes";
+import { Person, SampleData } from "./samleTypes";
 
 function sum(a: number, b: number) {
   return a + b;
@@ -11,3 +11,9 @@ function greeter(person: Person) {
 }
 
 greeter({ name: "toshi-toma", age: 24 });
+
+function greeterWithEnum(person: SampleData) {
+  return `My name is ${person.name}. I am ${person.age} years old.`;
+}
+
+greeterWithEnum({ name: SampleData.name, age: SampleData.age });

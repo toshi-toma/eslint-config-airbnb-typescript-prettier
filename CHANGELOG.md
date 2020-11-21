@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/compare/v3.1.0...v4.1.0) (2020-11-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update dependencies
+
+### Features
+
+* Update dependencies to work with TypeScript v4 ([#67](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/issues/67)) ([116e92b](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/commit/116e92b4f795492eea1f7355a5e3f813a2bd3907))
+
+
+### Bug Fixes
+
+* use no-shadow of [@typescript-eslint](https://github.com/typescript-eslint) instead of base rule ([#71](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/issues/71)) ([319683c](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/commit/319683cd43500e73140faae765bb88d0399ba6f3))
+
 ## [4.0.0](https://github.com/toshi-toma/eslint-config-airbnb-typescript-prettier/compare/v3.1.0...v4.0.0) (2020-11-14)
 
 

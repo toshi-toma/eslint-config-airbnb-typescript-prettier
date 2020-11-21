@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@types/react": "16.14.1",
-    "eslint": "7.13.0",
+    "eslint": "7.14.0",
     "prettier": "2.1.2",
     "react": "17.0.1",
     "standard-version": "9.0.0",

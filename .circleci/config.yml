@@ -21,12 +21,12 @@ commands:
 jobs:
   node-v10:
     docker:
-      - image: circleci/node:10
+      - image: circleci/node:16
     steps:
       - run-npm-test
   node-v12:
     docker:
-      - image: circleci/node:12
+      - image: circleci/node:16
     steps:
       - run-npm-test
 

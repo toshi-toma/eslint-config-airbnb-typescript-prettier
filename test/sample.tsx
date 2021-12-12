@@ -1,19 +1,28 @@
 import React, { FC } from "react";
 
-const Foo = () => <p>Foo</p>;
-const Component: FC = () => <Foo />;
+const Foo = function foo() {
+  return <p>Foo</p>;
+};
+const Component: FC = function Component() {
+  return <Foo />;
+};
 
 interface Props {
   name: string;
   age: number;
 }
-const ComponentWithProps: FC<Props> = ({ name, age }) => (
-  <p>
-    {name}, {age}
-  </p>
-);
+const ComponentWithProps: FC<Props> = function ComponentWithProps({
+  name,
+  age,
+}) {
+  return (
+    <p>
+      {name}, {age}
+    </p>
+  );
+};
 
-const ComponentWithHooks: FC = () => {
+const ComponentWithHooks: FC = function ComponentWithHooks() {
   const [count, setCount] = React.useState(0);
   React.useEffect(() => {
     const n = count + 1;
